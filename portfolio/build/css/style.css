@@ -243,9 +243,53 @@ body.dark {
 }
 
 .project__item:hover .project__content {
-  -webkit-transform: translate(370px);
-      -ms-transform: translate(370px);
-          transform: translate(370px);
+  -webkit-transform: translate(290px);
+      -ms-transform: translate(290px);
+          transform: translate(290px);
+}
+
+.project__item:hover .project__icon--arrow {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.project__item:hover .project__btn:first-child {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.project__img-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.project__img {
+  -webkit-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 250px;
+  height: auto;
+  -webkit-transform: translate(-2000px);
+      -ms-transform: translate(-2000px);
+          transform: translate(-2000px);
+  -webkit-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  -o-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.project__icon--arrow {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  right: 40px;
+  -webkit-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  -o-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
 }
 
 .project__content {
@@ -256,11 +300,16 @@ body.dark {
 }
 
 .project__title {
-  margin: 0 0 15px;
+  margin: 0 0 5px;
 }
 
 .project__text {
-  margin: 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.project__tools {
+  margin: 0 0 15px;
+  font: 400 20px/30px "Outfit", sans-serif;
 }
 
 .project__btns {
@@ -278,20 +327,13 @@ body.dark {
       -ms-flex-align: center;
           align-items: center;
   gap: 8px;
-  font: 400 20px/26px "Outfit", sans-serif;
-  -webkit-transition: color 0.4s ease;
-  -o-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  font: 300 20px/30px "Outfit", sans-serif;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .project__btn:hover {
-  color: #ffffff;
-}
-
-.project__btn:hover .project__icon {
-  -webkit-transform: translate(4px, -2px);
-      -ms-transform: translate(4px, -2px);
-          transform: translate(4px, -2px);
   color: #ffffff;
 }
 
@@ -305,35 +347,6 @@ body.dark {
 
 .project__icon--github {
   margin-left: 3px;
-}
-
-.project__img-container {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.project__img {
-  -webkit-transition: 0.4s ease;
-  -o-transition: 0.4s ease;
-  transition: 0.4s ease;
-  width: 330px;
-  height: 208px;
-  -webkit-transform: translate(-2000px);
-      -ms-transform: translate(-2000px);
-          transform: translate(-2000px);
-  -webkit-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
-  -o-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
-  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
-}
-
-.project__icon--arrow {
-  position: absolute;
-  top: 40px;
-  right: 40px;
 }
 
 @media (max-width: 1449.98px) {
