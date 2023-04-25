@@ -1,0 +1,92 @@
+.container {
+  contain: paint;
+
+}
+.project {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px;
+    border-top: 1px solid $borderColor;
+    border-bottom: 1px solid $borderColor;
+    position: relative;
+
+    &:hover .project__img  {
+      transform: translate(0px);
+    }
+    &:hover .project__content {
+      transform: translate(370px);
+    }
+  }
+
+  &__content {
+    max-width: 650px;
+    transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+
+  }
+
+  &__title {
+    margin: 0 0 15px;
+  }
+
+  &__text {
+    margin: 0 0 30px;
+  }
+
+  &__tools {}
+  &__btns {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: $fontProjectLink;
+    transition: color .4s ease;
+    &:hover {
+      color: $colorWhite;
+    }
+
+    &:hover .project__icon {
+        transform: translate(4px, -2px);
+        color: $colorWhite;
+    }
+  }
+
+  &__icon {
+    color: $textColor;
+    transition: color .8s ease;
+    margin-bottom: -3px;
+    
+    &--github {
+      margin-left: 3px;
+      // width: 23px;
+    }
+  }
+
+  &__img-container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  &__img {
+    transition: .4s ease;
+    width: 330px;
+		height: 208px;
+    transform: translate(-2000px);
+    transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  &__icon--arrow {
+    position: absolute;
+    right: 40px;
+
+    top: 40px;
+    right: 40px;
+
+  }
+}

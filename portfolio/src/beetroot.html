@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Projectn Betroot </title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+    <!-- Header -->
+    @@include('./html/_header.html')
+    <!-- Main Page -->
+    <main>
+        <section class="project">
+            <div class="container">
+                <div class="project__item">
+                    <div class="project__img-container">
+                        <img class="project__img" src="./img/project-novikov.jpg" alt="img">
+                    </div>
+                    <svg class="project__icon--arrow" width="14" height="14" viewBox="0 0 13 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11 3.4L2.12502 12.3C1.92502 12.5 1.68736 12.6 1.41202 12.6C1.13669 12.6 0.899357 12.5 0.700024 12.3C0.500024 12.1 0.400024 11.8623 0.400024 11.587C0.400024 11.3117 0.500024 11.0743 0.700024 10.875L9.60003 2H2.00002C1.71669 2 1.47902 1.904 1.28702 1.712C1.09502 1.52 0.999358 1.28267 1.00002 1C1.00002 0.71667 1.09602 0.479004 1.28802 0.287004C1.48002 0.0950036 1.71736 -0.000663206 2.00002 3.4602e-06H12C12.2834 3.4602e-06 12.521 0.0960036 12.713 0.288004C12.905 0.480004 13.0007 0.717337 13 1V11C13 11.2833 12.904 11.521 12.712 11.713C12.52 11.905 12.2827 12.0007 12 12C11.7167 12 11.479 11.904 11.287 11.712C11.095 11.52 10.9994 11.2827 11 11V3.4Z"
+                            fill="currentColor" />
+                    </svg>
+                    <div class="project__content">
+                        <div class="project__title heading-3">Resume</div>
+                        <div class="project__text">For my first project in school, I built a
+                            resume webpage and added minimal decorations using CSS. The webpage showcases my skills and
+                            experiences, and serves as an online portfolio for potential employers to view.</div>
+
+                        <div class="project__tools">HTML5, CSS</div>
+                        <div class="project__btns">
+                            <a class="project__btn link" href="#">See project
+                                <svg class="project__icon" width="14" height="14" viewBox="0 0 13 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11 3.4L2.12502 12.3C1.92502 12.5 1.68736 12.6 1.41202 12.6C1.13669 12.6 0.899357 12.5 0.700024 12.3C0.500024 12.1 0.400024 11.8623 0.400024 11.587C0.400024 11.3117 0.500024 11.0743 0.700024 10.875L9.60003 2H2.00002C1.71669 2 1.47902 1.904 1.28702 1.712C1.09502 1.52 0.999358 1.28267 1.00002 1C1.00002 0.71667 1.09602 0.479004 1.28802 0.287004C1.48002 0.0950036 1.71736 -0.000663206 2.00002 3.4602e-06H12C12.2834 3.4602e-06 12.521 0.0960036 12.713 0.288004C12.905 0.480004 13.0007 0.717337 13 1V11C13 11.2833 12.904 11.521 12.712 11.713C12.52 11.905 12.2827 12.0007 12 12C11.7167 12 11.479 11.904 11.287 11.712C11.095 11.52 10.9994 11.2827 11 11V3.4Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </a>
+                            <a class="project__btn link" href="#"> Code
+                                <svg class="project__icon--github" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 14.42 2.87 18.17 6.84 19.5C7.34 19.58 7.5 19.27 7.5 19V17.31C4.73 17.91 4.14 15.97 4.14 15.97C3.68 14.81 3.03 14.5 3.03 14.5C2.12 13.88 3.1 13.9 3.1 13.9C4.1 13.97 4.63 14.93 4.63 14.93C5.5 16.45 6.97 16 7.54 15.76C7.63 15.11 7.89 14.67 8.17 14.42C5.95 14.17 3.62 13.31 3.62 9.5C3.62 8.39 4 7.5 4.65 6.79C4.55 6.54 4.2 5.5 4.75 4.15C4.75 4.15 5.59 3.88 7.5 5.17C8.29 4.95 9.15 4.84 10 4.84C10.85 4.84 11.71 4.95 12.5 5.17C14.41 3.88 15.25 4.15 15.25 4.15C15.8 5.5 15.45 6.54 15.35 6.79C16 7.5 16.38 8.39 16.38 9.5C16.38 13.32 14.04 14.16 11.81 14.41C12.17 14.72 12.5 15.33 12.5 16.26V19C12.5 19.27 12.66 19.59 13.17 19.5C17.14 18.16 20 14.42 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project__item">
+                    <div class="project__img-container">
+                        <img class="project__img" src="./img/project-resume.jpg" alt="img">
+                    </div>
+                    <div class="project__content">
+                        <div class="project__title heading-3">Resume</div>
+                        <div class="project__text">For my first project in school, I built a
+                            resume webpage and added minimal decorations using CSS. The webpage showcases my skills and
+                            experiences, and serves as an online portfolio for potential employers to view.</div>
+
+                        <div class="project__tools">HTML5, CSS</div>
+                        <div class="project__btns">
+                            <a class="project__btn link" href="#">See project
+                                <svg class="project__icon" width="14" height="14" viewBox="0 0 13 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11 3.4L2.12502 12.3C1.92502 12.5 1.68736 12.6 1.41202 12.6C1.13669 12.6 0.899357 12.5 0.700024 12.3C0.500024 12.1 0.400024 11.8623 0.400024 11.587C0.400024 11.3117 0.500024 11.0743 0.700024 10.875L9.60003 2H2.00002C1.71669 2 1.47902 1.904 1.28702 1.712C1.09502 1.52 0.999358 1.28267 1.00002 1C1.00002 0.71667 1.09602 0.479004 1.28802 0.287004C1.48002 0.0950036 1.71736 -0.000663206 2.00002 3.4602e-06H12C12.2834 3.4602e-06 12.521 0.0960036 12.713 0.288004C12.905 0.480004 13.0007 0.717337 13 1V11C13 11.2833 12.904 11.521 12.712 11.713C12.52 11.905 12.2827 12.0007 12 12C11.7167 12 11.479 11.904 11.287 11.712C11.095 11.52 10.9994 11.2827 11 11V3.4Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </a>
+                            <a class="project__btn link" href="#"> Code
+                                <svg class="project__icon--github" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 14.42 2.87 18.17 6.84 19.5C7.34 19.58 7.5 19.27 7.5 19V17.31C4.73 17.91 4.14 15.97 4.14 15.97C3.68 14.81 3.03 14.5 3.03 14.5C2.12 13.88 3.1 13.9 3.1 13.9C4.1 13.97 4.63 14.93 4.63 14.93C5.5 16.45 6.97 16 7.54 15.76C7.63 15.11 7.89 14.67 8.17 14.42C5.95 14.17 3.62 13.31 3.62 9.5C3.62 8.39 4 7.5 4.65 6.79C4.55 6.54 4.2 5.5 4.75 4.15C4.75 4.15 5.59 3.88 7.5 5.17C8.29 4.95 9.15 4.84 10 4.84C10.85 4.84 11.71 4.95 12.5 5.17C14.41 3.88 15.25 4.15 15.25 4.15C15.8 5.5 15.45 6.54 15.35 6.79C16 7.5 16.38 8.39 16.38 9.5C16.38 13.32 14.04 14.16 11.81 14.41C12.17 14.72 12.5 15.33 12.5 16.26V19C12.5 19.27 12.66 19.59 13.17 19.5C17.14 18.16 20 14.42 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </main>
+    <!-- Footer -->
+    <!-- @@include('./html/_footer.html') -->
+</body>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>
