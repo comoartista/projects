@@ -90,8 +90,13 @@ body.dark {
   background: #242424;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 .heading-1 {
-  font: 400 56px/76px "Outfit", sans-serif;
+  font: 400 48px/58px "Outfit", sans-serif;
 }
 
 .heading-2 {
@@ -158,7 +163,7 @@ body.dark {
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
-  background: #1A1A1A;
+  background: #161616;
   border-radius: 100px;
   border: 1px solid #242424;
 }
@@ -214,6 +219,74 @@ body.dark {
   display: none;
   background: transparent;
   z-index: 3;
+}
+
+.hero__content {
+  margin: 150px auto 100px;
+  text-align: center;
+  width: 610px;
+  position: relative;
+}
+
+.hero__photo-container {
+  display: block;
+  width: 82px;
+  height: 48px;
+  background: #1A1A1A;
+  border: 2px solid #242424;
+  border-radius: 100px;
+  position: absolute;
+  top: -58px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  -o-transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.hero__icon-photo {
+  width: 82px;
+  position: absolute;
+  top: -85px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
+}
+
+.hero__text {
+  margin: 0 0 10px;
+}
+
+.hero__text:hover .hero__photo-container {
+  background: #d7a5ff;
+}
+
+.hero__keyboard-container {
+  display: block;
+  bottom: 6px;
+  right: 82px;
+  width: 82px;
+  height: 48px;
+  background: #1A1A1A;
+  border: 2px solid #242424;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.hero__icon-keyboard {
+  width: 74px;
+  height: 80px;
+  bottom: -2px;
+  right: 82px;
+  position: absolute;
+}
+
+.hero__text:hover + .hero__photo-container {
+  background: #d7a5ff;
 }
 
 .container {

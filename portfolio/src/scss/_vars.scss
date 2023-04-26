@@ -10,9 +10,10 @@ $breakpoint480: 479.98 + px;
 
 // Colors
 $mainColor: #131418;
-$blackColor: #1A1A1A;
+$bgColor: #1A1A1A;
+
 $borderColor: #242424;
-$bgColor: #161616;
+$blackColor: #161616;
 $textColor: #9A9A9A;
 $colorWhite: #ffffff;
 
@@ -26,7 +27,7 @@ $burgerActiveColor: #fefefe;
 // Fonts
 $fontMain: 'Outfit', sans-serif;;
 
-$fontHeading1: 400 56px / 76px $fontMain; 
+$fontHeading1: 400 48px / 58px $fontMain; 
 $fontHeading2: 400 32px / 42px $fontMain; 
 $fontHeading3: 400 26px / 36px $fontMain; 
 $fontText: 300 18px / 28px $fontMain; 

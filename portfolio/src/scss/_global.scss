@@ -25,7 +25,7 @@
 // Body & Locked
 body {
     font-family: $fontMain;
-    background: $bgColor;
+    background: $blackColor;
     color: $textColor;
     font: $fontText;
     &.locked {
@@ -35,6 +35,11 @@ body {
     &.dark {
         background: #242424;
     }
+}
+
+img {
+    width: 100%;
+    display: block;
 }
 
 .heading-1 {
