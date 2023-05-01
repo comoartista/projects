@@ -21,7 +21,7 @@ $colorWhite: #ffffff;
 
 // Burger Menu
 $burgerBreakpoint: $breakpoint992;
-$burgerColor: #131418;
+$burgerColor: $textColor;
 $burgerActiveColor: #fefefe;
 
 // Fonts
@@ -29,8 +29,8 @@ $fontMain: 'Outfit', sans-serif;;
 
 $fontHeading1: 400 48px / 58px $fontMain; 
 $fontHeading2: 400 32px / 42px $fontMain; 
-$fontHeading3: 400 26px / 36px $fontMain; 
-$fontText: 300 18px / 28px $fontMain; 
+$fontHeading3: 400 18px / 28px $fontMain; 
+$fontText: 300 14px / 20px $fontMain; 
 $underTitle: 300 16px / 26px $fontMain;
 $fontProjectLink: 300 20px / 30px $fontMain;
 $fontProjectTools: 400 20px / 30px $fontMain;

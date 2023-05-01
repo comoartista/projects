@@ -1,6 +1,31 @@
+// .header {
+//     &__container {}
+// }
+// .container {
+// }
+// .logo {
+//     width: 30px;
+// }
+// .mobile {
+//     &-menu {}
+// }
+// .line {
+//     &-top {}
+//     &-middle {}
+//     &-bottom {}
+// }
+// .menu {
+//     &__list {}
+//     &__item {}
+//     &__link {}
+// }
+// .social {
+// }
+// .link {
+// }
+
 // ========================= [ Header styles ] =========================
 .header {
-    // background-color: #43adff;
 
     &.fixed {
         position: fixed;
@@ -17,23 +42,23 @@
     padding: 20px 0;
 }
 .logo {
-    a {
-        color: white;
-    }
+    width: 35px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
 }
 
 // ========================== [ Menu styles ] ==========================
 .menu {
-    margin: 0 0 0 30px;
-    padding: 15px 40px 15px 40px;
+    padding: 14px 25px;
     display: flex;
-    gap: 40px;
+    align-items: center;
+    gap: 30px;
 
-    background: $blackColor;
+    border: 1px solid $borderColor; 
     border-radius: 100px;
-    border: 1px solid $borderColor;
-
-    // .menu__item
     &__item {
         display: flex;
         position: relative;
@@ -60,7 +85,7 @@
             display: none;
         }
         &:hover {
-            color: #131418;
+            color: #474747;
             &:after {
                 transform: scale(1);
             }

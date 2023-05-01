@@ -14,27 +14,63 @@
 
 <body class="main__body">
     <!-- Header -->
-    <header>
+    <!-- <header class="header">
+    <div class="container header__container">
+        <a href="../beetroot.html" class="link">
+            <img class="logo" width="50" src="../img/logo.png" alt="logo">
+        </a>
+
+        <div id="mobileMenu" class="mobile-menu">
+            <span class="line-top"></span>
+            <span class="line-middle"></span>
+            <span class="line-bottom"></span>
+        </div>
+
+        <nav id="menu" class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Project</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="social">
+            <a href="" class="link">GitHub</a>
+            <a href="" class="link">LinkedIn</a>
+        </div>
+    </div>
+</header> -->
+
+<header>
     <!-- Navbar -->
-    <div class="header">
+    <div class="header fixed">
         <div class="container">
             <div class="navbar">
-                <a href="../beetroot.html" class="link">Get in tauch</a>
+                <div class="logo">
+                    <img src="../img/logo.png" alt="logo">
+                </div>
                 <nav>
                     <ul class="menu">
-                        <li class="menu__item"><a href="../index.html" class="menu__item-link" data-scroll>Home</a></li>
                         <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Project</a></li>
-                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>About</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>About me</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Contacts</a></li>
                     </ul>
                 </nav>
+
                 <div class="social">
-                    <a href="" class="link">GitHub</a>
-                    <a href="" class="link">LinkedIn</a>
+                    <a href="" class="menu__item-link social__link">GitHub</a>
+                    <a href="" class="menu__item-link social__link">LinkedIn</a>
                 </div>
 
-                <!-- <button class="burger">
+                <button class="burger">
                     <span></span>
-                </button> -->
+                </button>
             </div>
         </div>
     </div>
@@ -43,6 +79,7 @@
     <main>
         <section class="project">
             <div class="container">
+
                 <div class="project__item">
                     <div class="project__img-container">
                         <img class="project__img" src="./img/documentation.jpg" alt="img">
